@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+myenv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Generated application data
+vectorstore/
+data/
+
+# Tool and OS files
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
